@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart - E-Book Management System</title>
+</head>
+<body style="margin:0; background-color:blue; font-family:'Times New Roman', Times, serif; padding:20px;">
+
+    <header style="background-color:lightgreen; display:flex; align-items:center; padding:20px;">
+        <div>
+            <img src="college logo.png" alt="College Logo" style="width:100px; height:120px;">
+        </div>
+        <div style="flex:1; text-align:center;">
+            <h1 style="margin:0; color:black;">
+                BVRIT HYDERABAD College of Engineering for Women <br>
+                Bachupally, Hyderabad, Telangana, 500090 <br><br>
+                E-Book Management System - Cart
+            </h1>
+        </div>
+    </header>
+    <br>
+    <hr>
+    <nav style="background-color:orange; text-align:center; padding:15px; font-size:24px;">
+        <a href="login.html" style="color:black; margin:0 10px;">Login</a> |
+        <a href="register.html" style="color:black; margin:0 10px;">Register</a> |
+        <a href="catalog.html" style="color:black; margin:0 10px;">Catalog</a> |
+        <a href="cart.html" style="color:black; margin:0 10px; font-weight:bold;">Cart</a>
+    </nav>
+    <hr>
+    <br>
+    <div style="background-color:lightblue; padding:20px;">
+        <h2 style="text-align:center; color:black;">Your Shopping Cart</h2>
+        <table border="1" cellspacing="0" cellpadding="15" style="width:80%; margin:auto; background-color:white; text-align:center; border-collapse:collapse; font-size:22px;">
+            <tr style="background-color:lightgreen;">
+                <th>Book</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Total</th>
+            </tr>
+            <tr>
+                <td>Book 1</td>
+                <td>₹100</td>
+                <td>1</td>
+                <td>₹100</td>
+            </tr>
+            <tr>
+                <td colspan="3" style="text-align:right;"><b>Grand Total</b></td>
+                <td><b>₹100</b></td>
+            </tr>
+        </table>
+        <br>
+        <div style="text-align:center;">
+            <input type="button" value="Continue Shopping" onclick="location.href='catalog.html'" style="padding:10px 20px; font-size:20px; background-color:orange; color:black; border:none; cursor:pointer;">
+            &nbsp;&nbsp;
+            <input type="button" value="Checkout" style="padding:10px 20px; font-size:20px; background-color:green; color:white; border:none; cursor:pointer;">
+        </div>
+    </div>
+    <br>
+    <hr>
+    <footer style="background-color:blueviolet; text-align:center; padding:20px; color:black; font-size:24px;">
+        <p>&copy; 2023 E-Book Management System. All Rights Reserved.</p>
+        <p>
+            For further assistance, contact
+            <a href="mailto:info@bvrithyderabad.edu.in" style="color:black;">
+                info@bvrithyderabad.edu.in
+            </a>
+        </p>
+    </footer>
+</body>
+</html>
